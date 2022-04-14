@@ -2,15 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { deleteExpenses, editExpenses } from '../actions';
+import './ExpenseTable.css'
 
 class ExpensesTable extends React.Component {
   render() {
     const { expenses, deleteExpense } = this.props;
     console.log(expenses);
     return (
-      <table className="table">
+      <table className="table-wallet">
         <tbody>
-          <tr>
+          <tr className="head-table">
             <th>Descrição</th>
             <th>Tag</th>
             <th>Método de pagamento</th>
@@ -43,12 +44,14 @@ class ExpensesTable extends React.Component {
                 <button
                   type="button"
                   data-testid="edit-btn"
+                  className="edit-btn"
                 >
                   Editar
                 </button>
                 <button
                   type="button"
                   data-testid="delete-btn"
+                  className="delete-btn"
                   onClick={ () => deleteExpense(obj.id) }
                 >
                   Excluir

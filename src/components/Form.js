@@ -47,10 +47,11 @@ class Form extends React.Component {
     } = this.state;
 
     return (
-      <form>
+      <form className="form-wallet">
         <label htmlFor="value">
-          Valor:
+          Value:
           <input
+            className='input-wallet'
             name="value"
             data-testid="value-input"
             value={ value }
@@ -58,8 +59,9 @@ class Form extends React.Component {
           />
         </label>
         <label htmlFor="description">
-          Descrição:
+          Description:
           <input
+            className='input-wallet'
             id="description"
             name="description"
             data-testid="description-input"
@@ -68,8 +70,9 @@ class Form extends React.Component {
           />
         </label>
         <label htmlFor="currency">
-          Moeda:
+          Currency:
           <select
+            className='input-wallet'
             id="currency"
             name="currency"
             data-testid="currency-input"
@@ -82,8 +85,9 @@ class Form extends React.Component {
           </select>
         </label>
         <label htmlFor="method">
-          Método de pagamento:
+          Payment method:
           <select
+            className='input-wallet'
             id="method"
             name="method"
             data-testid="method-input"
@@ -96,8 +100,9 @@ class Form extends React.Component {
           </select>
         </label>
         <label htmlFor="tag">
-          Categoria:
+          Category:
           <select
+            className='input-wallet'
             id="tag"
             name="tag"
             data-testid="tag-input"
@@ -112,10 +117,11 @@ class Form extends React.Component {
           </select>
         </label>
         <button
+          className="add-btn"
           type="submit"
           onClick={ this.submitButton }
         >
-          Adicionar despesa
+          Add
         </button>
       </form>
     );

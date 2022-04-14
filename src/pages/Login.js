@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 import { userEmail } from '../actions/index';
-import walletLogo from '../assets/walletLogo2.svg'
+import coin from '../assets/coin.svg'
 import money from '../assets/money.svg'
 import './Login.css'
 
@@ -55,7 +55,7 @@ class Login extends React.Component {
     return (
       <>
       <header className="header-login">
-        <img className="login-logo" src={walletLogo}/>
+        <img className="login-logo" src={coin}/>
         <form className="form-login">
           <input
             className="input-login"
@@ -90,6 +90,10 @@ class Login extends React.Component {
         </section>
         <img className="img-money" src={money} />
       </main>
+        {/* <section className="about-section">
+          <h2>Sobre</h2>
+          <p>Trybe Wallet é uma carteira digital desenvolvida durante o bloco de Front-End do curso de desenvolvimento da Trybe</p>
+        </section> */}
       </>
     );
   }

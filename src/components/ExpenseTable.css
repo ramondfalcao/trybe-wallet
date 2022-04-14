@@ -1,0 +1,53 @@
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.table-wallet {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  font-family: 'Roboto Mono', monospace;
+  width: 100%;
+}
+
+.table-wallet td, .table-wallet th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-wallet th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+
+}
+
+.edit-btn {
+  position: relative;
+  font-size: 12px;
+  text-decoration: none;
+  width: 70px;
+  padding: 0.2em 0.9em;
+  border-radius: 6em;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  background-color: rgb(6, 50, 243);
+}
+
+.delete-btn {
+  position: relative;
+  font-size: 12px;
+  text-decoration: none;
+  width: 70px;
+  padding: 0.2em 0.9em;
+  border-radius: 6em;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  background-color: rgb(243, 6, 6);
+}

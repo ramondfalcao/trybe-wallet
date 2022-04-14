@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import money from '../assets/money.svg';
+import './Header.css';
 
 class Header extends React.Component {
   render() {
@@ -17,10 +19,10 @@ class Header extends React.Component {
     const sum = valueExpenses.reduce((acc, cur) => acc + cur, 0);
 
     return (
-      <header>
-        <div data-testid="email-field">{currentEmail}</div>
-        <div data-testid="total-field">{sum.toFixed(2)}</div>
-        <div data-testid="header-currency-field">BRL</div>
+      <header className="header-wallet">
+        <div data-testid="total-field">{`💲: ${sum.toFixed(2)}`}</div>
+        <div data-testid="header-currency-field">🪙: BRL</div>
+        <div data-testid="email-field">{`👤: ${currentEmail}`}</div>
       </header>
     );
   }
