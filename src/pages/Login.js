@@ -2,6 +2,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 import { userEmail } from '../actions/index';
+import walletLogo from '../assets/walletLogo2.svg'
+import money from '../assets/money.svg'
+import './Login.css'
 
 class Login extends React.Component {
   constructor() {
@@ -50,29 +53,44 @@ class Login extends React.Component {
       password,
     } = this.state;
     return (
-      <form>
-        <input
-          data-testid="email-input"
-          placeholder="email@trybe.com"
-          name="email"
-          value={ email }
-          onChange={ this.handleChange }
-        />
-        <input
-          name="password"
-          data-testid="password-input"
-          placeholder="************"
-          value={ password }
-          onChange={ this.handleChange }
-        />
-        <button
-          type="submit"
-          disabled={ disable }
-          onClick={ this.submitButton }
-        >
-          Entrar
-        </button>
-      </form>
+      <>
+      <header className="header-login">
+        <img className="login-logo" src={walletLogo}/>
+        <form className="form-login">
+          <input
+            className="input-login"
+            data-testid="email-input"
+            placeholder="email@email.com"
+            name="email"
+            value={ email }
+            onChange={ this.handleChange }
+          />
+          <input
+            className="input-login"
+            name="password"
+            data-testid="password-input"
+            placeholder="************"
+            value={ password }
+            onChange={ this.handleChange }
+          />
+          <button
+            class="btn"
+            type="submit"
+            disabled={ disable }
+            onClick={ this.submitButton }
+          >
+            Login
+          </button>
+        </form>
+      </header>
+      <main className="main-login">
+        <section className="section-container">
+          <h1>Trybe Wallet</h1>
+          <p>Sua Carteira Digital</p>
+        </section>
+        <img className="img-money" src={money} />
+      </main>
+      </>
     );
   }
 }

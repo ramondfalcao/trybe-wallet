@@ -5,6 +5,7 @@ import { fecthApiThunk } from '../actions';
 import Form from '../components/Form';
 import ExpensesTable from '../components/ExpensesTable';
 import Header from '../components/Header';
+import './Wallet.css'
 
 class Wallet extends React.Component {
   componentDidMount() {
@@ -14,11 +15,11 @@ class Wallet extends React.Component {
 
   render() {
     return (
-      <>
+      <main className="main-wallet">
         <Header />
         <Form />
         <ExpensesTable />
-      </>
+      </main>
     );
   }
 }

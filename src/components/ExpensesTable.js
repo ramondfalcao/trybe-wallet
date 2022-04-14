@@ -8,7 +8,7 @@ class ExpensesTable extends React.Component {
     const { expenses, deleteExpense } = this.props;
     console.log(expenses);
     return (
-      <table>
+      <table className="table">
         <tbody>
           <tr>
             <th>Descrição</th>
@@ -43,7 +43,6 @@ class ExpensesTable extends React.Component {
                 <button
                   type="button"
                   data-testid="edit-btn"
-                  onClick={ () => editExpense() }
                 >
                   Editar
                 </button>

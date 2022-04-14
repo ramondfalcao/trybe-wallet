@@ -1,0 +1,125 @@
+.header-login {
+  /* background-color: #0B4F6C; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #3065b9;
+  background-image: linear-gradient(135deg, #3065b9 0%, #494b79 100%);
+  height: 100vh;
+}
+
+.login-logo {
+  width: 4%;
+  margin-left: 30px;
+}
+
+.form-login {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.input-login {
+  padding: 5px;
+  border: 0;
+  border-bottom: 2px solid whitesmoke;
+  border-radius: 0.2rem;
+  /* background: none; */
+  color: whitesmoke;
+  /* border: 2px solid whitesmoke */
+}
+
+.main-login {
+  /* background-color: #0B4F6C; */
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.section-container {
+  width: 20%;
+  height: 200px;
+  color: whitesmoke;
+}
+
+
+.section-container > h1 {
+  font-size: 3.9rem;
+  margin-bottom: 10px;
+}
+
+
+.section-container > p {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif; */
+
+
+.img-money {
+  width: 20%;
+}
+
+/* Button LOGIN */
+
+.btn { 
+ position: relative;
+ margin-right: 5px;
+ font-size: 17px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 0.4em 1.4em;
+ display: inline-block;
+ border-radius: 6em;
+ transition: all .2s;
+ border: none;
+ font-family: 'Roboto Mono', monospace;
+ font-weight: 500;
+ color: black;
+ background-color: white;
+}
+
+.btn:hover {
+ transform: translateY(-3px);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+ transform: translateY(-1px);
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: -1;
+ transition: all .4s;
+}
+
+.btn::after {
+ background-color: #fff;
+}
+
+.btn:hover::after {
+ transform: scaleX(1.4) scaleY(1.6);
+ opacity: 0;
+}
