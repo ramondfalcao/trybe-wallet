@@ -90,10 +90,15 @@ class Login extends React.Component {
         </section>
         <img className="img-money" src={money} />
       </main>
-        {/* <section className="about-section">
-          <h2>Sobre</h2>
-          <p>Trybe Wallet é uma carteira digital desenvolvida durante o bloco de Front-End do curso de desenvolvimento da Trybe</p>
-        </section> */}
+        <section className="about-section">
+          <div className="about">
+            <h2>Desenvolvido por: Ramond Falcão</h2>
+          </div>
+          <div className="social-container">
+            <a target="_blank" href="https://www.linkedin.com/in/ramond-falc%C3%A3o-b528a1206/"><img className="social-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>
+            <a target="_blank" href="https://github.com/ramondfalcao"><img className="social-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a>
+          </div>
+        </section>
       </>
     );
   }
