@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/trybe-wallet/static/css/main.1f2b9392.chunk.css",
-    "main.js": "/trybe-wallet/static/js/main.7d389a75.chunk.js",
-    "main.js.map": "/trybe-wallet/static/js/main.7d389a75.chunk.js.map",
+    "main.css": "/trybe-wallet/static/css/main.a7b8730a.chunk.css",
+    "main.js": "/trybe-wallet/static/js/main.ae953fc7.chunk.js",
+    "main.js.map": "/trybe-wallet/static/js/main.ae953fc7.chunk.js.map",
     "runtime-main.js": "/trybe-wallet/static/js/runtime-main.2e2bea36.js",
     "runtime-main.js.map": "/trybe-wallet/static/js/runtime-main.2e2bea36.js.map",
-    "static/js/2.014f6dcb.chunk.js": "/trybe-wallet/static/js/2.014f6dcb.chunk.js",
-    "static/js/2.014f6dcb.chunk.js.map": "/trybe-wallet/static/js/2.014f6dcb.chunk.js.map",
+    "static/js/2.06274870.chunk.js": "/trybe-wallet/static/js/2.06274870.chunk.js",
+    "static/js/2.06274870.chunk.js.map": "/trybe-wallet/static/js/2.06274870.chunk.js.map",
     "index.html": "/trybe-wallet/index.html",
-    "precache-manifest.d4fd2aa067b9f7202ab3fd7cba681ab5.js": "/trybe-wallet/precache-manifest.d4fd2aa067b9f7202ab3fd7cba681ab5.js",
+    "precache-manifest.5e6aee83264bb998d536ebe05f1d7be8.js": "/trybe-wallet/precache-manifest.5e6aee83264bb998d536ebe05f1d7be8.js",
     "service-worker.js": "/trybe-wallet/service-worker.js",
-    "static/css/main.1f2b9392.chunk.css.map": "/trybe-wallet/static/css/main.1f2b9392.chunk.css.map",
-    "static/js/2.014f6dcb.chunk.js.LICENSE.txt": "/trybe-wallet/static/js/2.014f6dcb.chunk.js.LICENSE.txt",
+    "static/css/main.a7b8730a.chunk.css.map": "/trybe-wallet/static/css/main.a7b8730a.chunk.css.map",
+    "static/js/2.06274870.chunk.js.LICENSE.txt": "/trybe-wallet/static/js/2.06274870.chunk.js.LICENSE.txt",
     "static/media/coin.svg": "/trybe-wallet/static/media/coin.84eb2fec.svg",
     "static/media/money.svg": "/trybe-wallet/static/media/money.8538d153.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e2bea36.js",
-    "static/js/2.014f6dcb.chunk.js",
-    "static/css/main.1f2b9392.chunk.css",
-    "static/js/main.7d389a75.chunk.js"
+    "static/js/2.06274870.chunk.js",
+    "static/css/main.a7b8730a.chunk.css",
+    "static/js/main.ae953fc7.chunk.js"
   ]
 }
