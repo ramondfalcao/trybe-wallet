@@ -5,6 +5,7 @@ import { userEmail } from '../actions/index';
 import coin from '../assets/coin.svg'
 import money from '../assets/money.svg'
 import './Login.css'
+import './mediaQueries.css'
 
 class Login extends React.Component {
   constructor() {
