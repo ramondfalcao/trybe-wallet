@@ -55,7 +55,7 @@ class Login extends React.Component {
     } = this.state;
     return (
       <>
-      <header className="header-login">
+      <header translate="no" className="header-login">
         <img className="login-logo" src={coin}/>
         <form className="form-login">
           <input
