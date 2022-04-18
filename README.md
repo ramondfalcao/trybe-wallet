@@ -1,4 +1,4 @@
-#  <a href="https://ramondfalcao.github.io/trybe-wallet/"><h1 align="center">Projeto Trybe Wallet em React com Redux!</h1></a>
+#  <h1 align="center">Projeto Trybe Wallet em React com Redux!</h1>
 ![img](trybeWallet2.gif)
 
 ## O que foi desenvolvido
@@ -8,6 +8,10 @@ Neste projeto desenvolvi uma carteira de controle de gastos com conversor de moe
 - Adicionar, remover e editar um gasto;
 - Visualizar uma tabelas com seus gastos;
 - Visualizar o total de gastos convertidos para uma moeda de escolha;
+
+## Mobile Version
+
+	🚧 Em construção... 🚧
 
 # Habilidades
 
