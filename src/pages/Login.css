@@ -2,8 +2,8 @@
 body {
   background-color: #3065b9;
   background-image: linear-gradient(135deg, #3065b9 0%, #494b79 100%);
-  background-image: url("../assets/money.svg");
-  background-repeat: repeat;
+  /* background-image: url("../assets/money.svg"); */
+  background-repeat: no-repeat;
 }
 .main-login {
   width: 100%;

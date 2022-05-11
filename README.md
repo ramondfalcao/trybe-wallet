@@ -1,5 +1,5 @@
 #  <h1 align="center">Projeto Trybe Wallet em React com Redux!</h1>
-![img](trybeWallet2.gif)
+![img](trybeWalletSizes.svg)
 
 ## O que foi desenvolvido
 
