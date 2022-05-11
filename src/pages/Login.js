@@ -5,7 +5,6 @@ import { userEmail } from '../actions/index';
 import coin from '../assets/coin.svg'
 import money from '../assets/money.svg'
 import './Login.css'
-import './mediaQueries.css'
 
 class Login extends React.Component {
   constructor() {
@@ -55,8 +54,11 @@ class Login extends React.Component {
     } = this.state;
     return (
       <>
-      <header translate="no" className="header-login">
-        <img className="login-logo" src={coin}/>
+      <main translate="no" className="main-login">
+        <section className="section-container">
+          <h1>Trybe Wallet</h1>
+          <p>Sua Carteira Digital</p>
+        </section>
         <form className="form-login">
           <input
             className="input-login"
@@ -83,23 +85,7 @@ class Login extends React.Component {
             Login
           </button>
         </form>
-      </header>
-      <main className="main-login">
-        <section className="section-container">
-          <h1>Trybe Wallet</h1>
-          <p>Sua Carteira Digital</p>
-        </section>
-        <img className="img-money" src={money} />
       </main>
-        <section className="about-section">
-          <div className="about">
-            <h2>Desenvolvido por: Ramond Falcão</h2>
-          </div>
-          <div className="social-container">
-            <a target="_blank" href="https://www.linkedin.com/in/ramond-falc%C3%A3o-b528a1206/"><img className="social-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>
-            <a target="_blank" href="https://github.com/ramondfalcao"><img className="social-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a>
-          </div>
-        </section>
       </>
     );
   }
